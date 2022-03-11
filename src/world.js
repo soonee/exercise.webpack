@@ -1,1 +1,2 @@
-var word = 'World!'
+var word = 'World'
+export default word
