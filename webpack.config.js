@@ -33,5 +33,12 @@ module.exports = {
             filename: './about.html',
             chunks: ['about']
         })
-    ]
+    ],
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'public'),
+        },
+        compress: true,
+        port: 8000
+    },
 }
